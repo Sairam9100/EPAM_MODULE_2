@@ -1,6 +1,9 @@
 package org.example;
 
+import com.beust.jcommander.Parameters;
 import io.github.bonigarcia.wdm.WebDriverManager;
+import junit.framework.TestCase;
+import junit.framework.TestSuite;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;

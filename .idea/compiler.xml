@@ -6,8 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="EPAM_MODULE_2" />
+        <module name="Module3" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="EPAM_MODULE_2" target="19" />
+    </bytecodeTargetLevel>
   </component>
 </project>
